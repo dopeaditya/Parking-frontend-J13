@@ -12,7 +12,7 @@ export default function SingleViewPage() {
   const [allIcecream, setallIcecream] = useState([]);
 
   const API_BASE_URL =
-    import.meta.env.VITE_API_BASE_URL || "http://65.0.81.38:3000/api";
+    import.meta.env.VITE_API_BASE_URL || "http://3.108.191.52:3000/api";
 
   useEffect(() => {
     axios

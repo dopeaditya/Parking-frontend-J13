@@ -77,9 +77,9 @@ const OrdersPage = () => {
       return imagePath;
     }
 
-    // If it's a relative path, add 65.0.81.38 prefix
+    // If it's a relative path, add 3.108.191.52 prefix
     if (imagePath.startsWith("/")) {
-      return `http://65.0.81.38:3000${imagePath}`;
+      return `http://3.108.191.52:3000${imagePath}`;
     }
 
     return "/placeholder-image.jpg";
